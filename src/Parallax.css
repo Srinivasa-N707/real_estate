@@ -1,0 +1,135 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the parallax effect */
+  .parallax-container {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Parallax section */
+  .parallax {
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax1 {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 0.1s ease-out;
+  }  
+
+  
+  /* Parallax background images */
+  .bg1 {
+    background-image: url('assets/istockphoto-1205274326-612x612_cleanup.jpg');
+  }
+  
+  .bg2 {
+    background-image: url('assets/istockphoto-1205274326-612x612-removebg-preview.png');
+  }
+
+  .bg3 {
+    background-image: url('https://via.placeholder.com/1500x1000/0000FF/808080');
+  }
+  
+  /* Content section */
+  .content {
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+    color: black;
+    /* background-color: #333; */
+  }
+
+
+  .content h1, .content h2, .videoCarosel, .footer-h2{
+    font-size: 3rem;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+  }
+  
+  @property --num-transactions {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @property --num-assets {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @property --num-users {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes counter {
+    from {
+      --num-transactions: 0;
+      --num-assets: 0;
+      --num-users: 0;
+    }
+    to {
+      --num-transactions: 44;
+      --num-assets: 119;
+      --num-users: 4600;
+    }
+  }
+
+.videoCarosel {
+    padding: 1%;
+    color: black;
+    background-color: #f5f5f5;
+    /* background-color: #333; */
+}
+
+.homepage-text-align {
+    display: flex;
+    justify-content: end;
+    min-width: 100%;
+    padding-right: 15%;
+    padding-top: 5%;
+    /* text-wrap:wrap; */
+}
+
+.homepage-text-align h1 {
+    font-size: 3rem;
+    max-width: 100%;
+}
+
+.stream-text{
+    max-width: 100%;
+}
+
+.homepage-text{
+    max-width: 30%;
+}
+
+
+.footer .whyUs{
+    background-color: #f5f5f5;
+}
+.about-us{
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 3rem;
+    padding-top: 1%;
+    
+}
+.about-us h1{
+    padding-bottom: 1%;
+}

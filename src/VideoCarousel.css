@@ -1,0 +1,123 @@
+/* .videoCarosel {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .videoCarosel-content{
+    min-width: 80%;
+    min-height: 40%;
+    max-width: 80%;
+    max-height: 40%;
+  } */
+
+/*   
+  .videoCarousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .videoCarousel-content {
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+   */
+
+
+   /* VideoCarousel.css */
+/* VideoCarousel.css */
+
+/* Container setup */
+
+/* VideoCarousel.css */
+
+/* Container setup */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Set a consistent font */
+}
+
+/* Project Section */
+.project-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center elements in column */
+  margin: 20px; /* Add some margin */
+}
+
+/* Project Card */
+.project-card {
+  width: 90%; /* Set width to 90% for responsiveness */
+  max-width: 600px; /* Limit max width */
+  margin: 20px auto; /* Center the card */
+  padding: 20px; /* Add padding */
+  background: #fff; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+}
+
+/* Image Styles */
+.project-image {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Information Text */
+.project-info {
+  text-align: center; /* Center align text */
+  margin: 10px 0; /* Spacing */
+}
+
+/* Buttons Container */
+.buttons-container {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+  width: 100%; /* Full width */
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px; /* Add padding */
+  margin: 5px; /* Space between buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+/* Previous and Next Buttons */
+.prev-next-buttons {
+  display: flex; /* Align buttons */
+  justify-content: center; /* Center buttons */
+  margin: 10px 0; /* Spacing */
+}
+
+/* Media Queries for Mobile View */
+@media (max-width: 600px) {
+  .project-card {
+      width: 100%; /* Full width on mobile */
+      margin: 10px; /* Less margin */
+  }
+
+  .buttons-container {
+      flex-direction: column; /* Stack buttons on mobile */
+  }
+
+  .prev-next-buttons {
+      flex-direction: column; /* Stack prev/next buttons */
+  }
+}
