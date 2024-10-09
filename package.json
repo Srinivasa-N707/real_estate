@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://srinivasa.n2020aids@sece.ac.in.github.io/real_estate",
+  "homepage": "https://Srinivasa-N707.github.io/real_estate",
   "eslintConfig": {
     "extends": [
       "react-app",
