@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/real_estate/static/css/main.50c9694b.css",
+    "main.js": "/real_estate/static/js/main.79fe9fc6.js",
+    "static/js/453.3f2a1d5a.chunk.js": "/real_estate/static/js/453.3f2a1d5a.chunk.js",
+    "static/media/istockphoto-1205274326-612x612_cleanup.jpg": "/real_estate/static/media/istockphoto-1205274326-612x612_cleanup.8498d291d3c3dee77b72.jpg",
+    "static/media/istockphoto-1205274326-612x612-removebg-preview.png": "/real_estate/static/media/istockphoto-1205274326-612x612-removebg-preview.e3663f0cc8cad00f9d37.png",
+    "index.html": "/real_estate/index.html",
+    "main.50c9694b.css.map": "/real_estate/static/css/main.50c9694b.css.map",
+    "main.79fe9fc6.js.map": "/real_estate/static/js/main.79fe9fc6.js.map",
+    "453.3f2a1d5a.chunk.js.map": "/real_estate/static/js/453.3f2a1d5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50c9694b.css",
+    "static/js/main.79fe9fc6.js"
+  ]
+}
